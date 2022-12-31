@@ -1,0 +1,61 @@
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+ul{
+      width: 100%;
+    min-width: 100%;
+ 
+    gap: 3px;
+    padding: 5px;
+}
+.row {
+
+     margin-top:0;
+    margin-right:0;
+     margin-left: 0;
+     
+}
+li{
+  list-style-type:none;
+}
+.card-my{
+  background:red;
+  margin: 5px;
+      background: #f6f6f6;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 50%), 0 -2px 4px rgb(0 0 0 / 50%);
+}
+.img{
+  margin: 7px 0px;
+    box-shadow: inset -19px 2px 3px rgb(0 0 0 / 20%), inset 4px -7px 1px rgb(0 0 0 / 40%), -3px 2px 12px rgb(0 0 0 / 50%);
+    
+    border-radius: 40px;
+    padding: 5px;
+}
+
+@media (min-width: 576px){
+.col-sm-6 {
+    flex: 1 0 auto;
+    width:45%;
+}
+}
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 1 0 auto;
+    width: 45%;
+}
+}
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 1 0 auto;
+    width: 32.333333%;
+}
+}
+@media (min-width: 1200px){
+.col-xl-4 {
+    flex: 1 0 auto;
+    width: 32.333333%;
+}
+}
